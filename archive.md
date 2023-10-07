@@ -3,8 +3,9 @@ layout: default
 title: Archive
 ---
 
-# 全部
+# Archive
 
+Browse all posts by month and year.
 
 {% assign postsByYearMonth = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
 {% for yearMonth in postsByYearMonth %}
