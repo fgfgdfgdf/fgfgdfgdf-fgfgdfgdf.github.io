@@ -1,9 +1,9 @@
 ---
 layout: home
-title: home
+title: notes
 permalink: /
 ---
 
-carry100729@gmail.com
+notes
 
 
